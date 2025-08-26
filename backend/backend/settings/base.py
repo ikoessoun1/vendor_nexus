@@ -13,7 +13,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "insecure-key-for-dev")
 
 DEBUG = False  # default to False; override in local.py
 
-ALLOWED_HOSTS = []  # override in env-specific settings
+ALLOWED_HOSTS = ["vendor_nexus.onrender.com"]  # override in env-specific settings
 
 INSTALLED_APPS = [
     'django.contrib.admin',
