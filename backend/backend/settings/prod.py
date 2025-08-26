@@ -3,7 +3,7 @@ import dj_database_url
 
 
 DEBUG = False
-ALLOWED_HOSTS = ["your-service.onrender.com"]
+ALLOWED_HOSTS = ["vendor-nexus.onrender.com"]
 
 
 DATABASES = {
