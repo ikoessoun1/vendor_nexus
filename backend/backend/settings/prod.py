@@ -57,5 +57,5 @@ SECURE_HSTS_PRELOAD = True
 SECURE_BROWSER_XSS_FILTER = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://vendor-nexus.netlify.app/",
+    "https://vendor-nexus.netlify.app",
 ]
