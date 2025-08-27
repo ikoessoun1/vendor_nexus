@@ -52,9 +52,6 @@ SECURE_HSTS_PRELOAD = True
 # CACHE / PERFORMANCE
 # ========================
 
-# Tell browsers to cache static files aggressively
-# (works if you use hashed filenames for static assets)
-STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 
 # Additional security
 SECURE_BROWSER_XSS_FILTER = True
